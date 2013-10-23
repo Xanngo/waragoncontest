@@ -36,7 +36,8 @@ El algoritmo general, para un pastel de NxN con N elementos ricos y uno mágico 
 2 * N^2 * P^{N, N, ..., N (N-1 veces)}_{N*(N-1)}
 
 la permutación sería lapermutación de N*(N-1) elementos (todos menos una fila), en donde tenemos N-1 elementos repetidos N veces cada uno.
-o bien:
+
+Escrito con factoriales será:
 
 2 * N^4 * (N*(N-1))!/( (N!)^(N-1) )
 
